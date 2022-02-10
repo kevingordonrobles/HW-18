@@ -1,0 +1,70 @@
+.navBar {
+    display: inline-block;
+    vertical-align: top;
+    
+    }
+    body{
+        background-color: black;
+        color: white;
+    }
+    p {
+        text-align: center;
+        color: white;
+      }
+      h1 {
+        text-align: center;
+        color: white;
+      }
+      a:link {
+        color: white;
+        background-color: transparent;
+        text-decoration: none;
+      }
+      .mySkills {
+        display: flex;
+        background-color: #808080;
+        width: 88%;
+      }
+      .mySkills > div {
+        background-color: #808080;
+        width: 900px;
+        margin: 15px;
+        text-align: center;
+        line-height: 15px;
+        font-size: 15px;
+      }
+      .myWork {
+        display: grid;
+        grid-template-columns: auto auto;
+        background-color: #818588;
+        padding: 15px;
+      }
+      .myWork {
+        background-color: rgba(255, 255, 255, 0.8);
+        border: 1px solid rgba(0, 0, 0, 0.8);
+        padding: 15px;
+        font-size: 15px;
+        text-align: center;
+      }
+      h3 {
+        text-align: center;
+        color: white;
+      }
+      @media only screen and (max-width: 600px) {
+          .myWork {
+          flex-direction: column;
+          width: 100%;
+          background-color: lightblue;
+          grid-template-rows:300px 300px 300px;
+          grid-template-columns: 1fr;
+          grid-template-areas: 
+          "myWork"
+          "myWork"
+          "myWork"
+          ;
+        
+
+        }
+        
+        
+    }
